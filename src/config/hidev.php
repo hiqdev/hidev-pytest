@@ -1,12 +1,12 @@
 <?php
 
 /*
- * PHPUnit plugin for HiDev
+ * pytest plugin for HiDev
  *
  * @link      https://github.com/hiqdev/hidev-pytest
  * @package   hidev-pytest
  * @license   BSD-3-Clause
- * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
+ * @copyright Copyright (c) 2016, HiQDev (http://hiqdev.com/)
  */
 
 return [
