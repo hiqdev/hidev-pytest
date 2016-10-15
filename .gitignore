@@ -22,8 +22,17 @@ composer.lock
 # php-cs-fixer cache
 .php_cs.cache
 
+# test coverage
+.coverage
+
 # phpunit generated files
 coverage.clover
 
 # PHARs
+chkipper.phar
 composer.phar
+coverage.phar
+php-cs-fixer.phar
+phpunit-skelgen.phar
+phpunit.phar
+pytest.phar
