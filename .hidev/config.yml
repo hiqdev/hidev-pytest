@@ -1,0 +1,16 @@
+package:
+    type:           yii2-extension
+    name:           hidev-pytest
+    title:          pytest plugin for HiDev
+    headline:       HiDev pytest
+    keywords:       hidev, pytest
+    namespace:      hidev\pytest
+    description:    |
+        [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuous integration.
+
+        This plugin enables [pytest](http://pytest.org/) support for HiDev.
+
+        Provides usual `pytest` operations:
+
+        - running tests
+        - makes coverage report with `coverage`
