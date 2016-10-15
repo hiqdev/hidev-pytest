@@ -41,6 +41,9 @@
             "homepage": "http://hiqdev.com/"
         }
     ],
+    "require": {
+        "hiqdev/composer-config-plugin": "*@dev"
+    },
     "require-dev": {
         "hiqdev/hidev-php": "<2.0 || dev-master",
         "hiqdev/hidev-hiqdev": "<2.0 || dev-master"
@@ -49,5 +52,16 @@
         "psr-4": {
             "hidev\\pytest\\": "src"
         }
-    }
+    },
+    "extra": {
+        "config-plugin": {
+            "hidev": "src/config/hidev.php"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
 }
