@@ -3,8 +3,8 @@
 /*
  * PHPUnit plugin for HiDev
  *
- * @link      https://github.com/hiqdev/hidev-phpunit
- * @package   hidev-phpunit
+ * @link      https://github.com/hiqdev/hidev-pytest
+ * @package   hidev-pytest
  * @license   BSD-3-Clause
  * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
  */
@@ -13,7 +13,7 @@ return [
     'components' =>  [
         'config' => [
             'pytest' => [
-                'class' => \hidev\phpunit\console\PytestController::class,
+                'class' => \hidev\pytest\console\PytestController::class,
             ],
             'binaries' => [
                 'pytest' => [
@@ -24,6 +24,9 @@ return [
                     'class' => \hidev\base\BinaryPython::class,
                     'package' => 'coverage',
                 ],
+            ],
+            'vcsignore' => [
+                '.coverage' => 'test coverage',
             ],
         ],
     ],
